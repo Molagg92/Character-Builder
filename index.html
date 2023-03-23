@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+  <script src="JS/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <form id="nameHere">
+    <label for="nameInput">Enter Character Name:</label>
+    <input id="nameInput" type="text">
+    <button type="submit" class="nameButton">Enter</button>
+  </form>
+
+  <form id="selectForm">
+    <select id="bodyType">
+      <option>M</option>
+      <option>F</option>
+      <option>O</option>
+    </select>
+    <button type="submit" class="bodyButton">Enter</button>
+  </form>
+
+  <form id="attributeForm">
+    <label>
+      <input type="radio" name="operator" value="strength">Strength
+    </label>
+
+    <label>
+      <input type="radio" name="operator" value="dexterity">Dexterity
+    </label>
+
+    <label>
+      <input type="radio" name="operator" value="intelligence">Intelligence
+    </label>
+
+    <label>
+      <input type="radio" name="operator" value="wisdom">Wisdom
+    </label>
+
+  </form>
+  <h2 id="title" class="hidden"><span id="nameCharacter">_____</span>, the <span id="bodySelect">_____</span>:
+    
+  </h2>
+  <div id="paladin" class="hidden">
+    <p> A holy fighter who spends his day seeking righteous vengance for the innocent. </p>
+  </div>
+
+  <div id="rouge" class="hidden">
+    <p> Sneaky, tricky and silver tounged, the rouge stalks in the shadows, and strikes from unexpected places. </p>
+  </div>
+
+  <div id="wizard" class="hidden">
+    <p> A scholar and a student of the Arcane arts, knowledge and truth are your tools. Scrolls and books are your shield and sword. </p>
+  </div>
+
+  <div id="druid" class="hidden">
+    <p> A practitioner of natural magic and in tune with the moon cycles. Druids can fill many rolls, but are masters of none. </p>
+  </div>
+
+</body>
+</html>
