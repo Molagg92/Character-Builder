@@ -9,53 +9,48 @@
 
   <form id="nameHere">
     <label for="nameInput">Enter Character Name:</label>
-    <input id="nameInput" type="text">
+    <input id="nameInput" type="text" name="nameInput">
     <button type="submit" class="nameButton">Enter</button>
-  </form>
-
-  <form id="selectForm">
-    <select id="bodyType">
-      <option>M</option>
-      <option>F</option>
-      <option>O</option>
-    </select>
-    <button type="submit" class="bodyButton">Enter</button>
   </form>
 
   <form id="attributeForm">
     <label>
-      <input type="radio" name="operator" value="strength">Strength
+      <input type="radio" name="operator" value="Strong">Strong
     </label>
 
     <label>
-      <input type="radio" name="operator" value="dexterity">Dexterity
+      <input type="radio" name="operator" value="Nimble">Nimble
     </label>
 
     <label>
-      <input type="radio" name="operator" value="intelligence">Intelligence
+      <input type="radio" name="operator" value="Brilliant">Brilliant
     </label>
 
     <label>
-      <input type="radio" name="operator" value="wisdom">Wisdom
+      <input type="radio" name="operator" value="Wise">Wise
     </label>
-
+    <button type="submit"> Set </button>
   </form>
-  <h2 id="title" class="hidden"><span id="nameCharacter">_____</span>, the <span id="bodySelect">_____</span>:
+  <h2 id="title"><span id="nameCharacter">_____</span>, the <span id="profession">_____</span>:
     
   </h2>
   <div id="paladin" class="hidden">
+    <h2>PALADIN</h2>
     <p> A holy fighter who spends his day seeking righteous vengance for the innocent. </p>
   </div>
 
-  <div id="rouge" class="hidden">
+  <div id="rogue" class="hidden">
+    <h2>ROGUE</h2>
     <p> Sneaky, tricky and silver tounged, the rouge stalks in the shadows, and strikes from unexpected places. </p>
   </div>
 
   <div id="wizard" class="hidden">
+    <h2>WIZARD</h2>
     <p> A scholar and a student of the Arcane arts, knowledge and truth are your tools. Scrolls and books are your shield and sword. </p>
   </div>
 
   <div id="druid" class="hidden">
+    <h2>DRUID</h2>
     <p> A practitioner of natural magic and in tune with the moon cycles. Druids can fill many rolls, but are masters of none. </p>
   </div>
 
